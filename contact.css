@@ -1,0 +1,181 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigationbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.a {
+  display: flex;
+  text-decoration: none;
+}
+
+.navbar {
+  overflow: auto;
+  width: 100%;
+}
+
+.navbar ul {
+  text-decoration: none;
+  padding: 20px 25px;
+  padding-left: 250px;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid blue;
+  font-size: 20px;
+  /* border: 2px solid;*/
+}
+
+.container {
+  background: linear-gradient(to right, white 50%, #c7e1ea 50%);
+  display: grid;
+  grid-template-columns: 800px 2fr;
+}
+
+.foam {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.p1 {
+  margin-bottom: 16px;
+}
+
+.box {
+  padding: 6px;
+}
+
+.Mesg-box {
+  padding-bottom: 80px;
+  padding-right: 18px;
+}
+
+.info {
+  margin-top: 46px;
+}
+
+.Back-to-home {
+  display: flex;
+  margin-left: 125px;
+}
+
+.para2 {
+  font-weight: bold;
+  margin-left: 18px;
+  margin-top: 25px;
+  font-size: 25px;
+  color: white;
+}
+
+.img-arrow {
+  border-radius: 130px;
+  width: 76px;
+  height: 74px;
+  border: 3px solid black;
+}
+
+.img-arrow:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.img-contact {
+  display: flex;
+  margin-top: 155px;
+}
+
+.con-tact {
+  margin-right: 138px;
+  border: 2px solid black;
+  box-shadow: 25px 0px 40px rgba(255, 255, 255, 0.99);
+}
+
+.em-ail {
+  border: 2px solid black;
+  box-shadow: 25px 0px 40px rgba(255, 255, 255, 0.99);
+}
+
+.direction {
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.img-direction {
+  margin-bottom: 72px;
+}
+
+.containlast {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot1 {
+  padding: 50px;
+  display: flex;
+}
+
+.logoimg {
+  border: 2px grey;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.facegmi {
+  width: 38px;
+  height: 38px;
+  border-radius: 145px;
+  position: absolute;
+  top: 150%;
+  left: 90px;
+}
+
+.insta {
+  width: 36px;
+  height: 36px;
+  border-radius: 145px;
+  position: absolute;
+  top: 150%;
+  left: 153px;
+}
+
+.foot1 {
+  padding: 42px;
+}
+
+.foot2 {
+  padding: 42px;
+}
+
+.foot3 {
+  padding: 42px;
+}
+
+.para2 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.KKSchool {
+  padding-left: 10px;
+}

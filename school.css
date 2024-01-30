@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bar{
+  display: flex;
+  background-color: rgb(171, 171, 230); 
+}
+
+.nav-logo{
+  width: 289px;
+  height: 269px;
+  border-radius: 85px;
+  margin: 30px;
+  box-shadow: 17px 8px 20px rgba(0, 38, 255, 0.25);
+}
+
+.paragraph_1{
+  margin-left: 60px;
+  font-size: 20px;
+  color: #fff;
+  font-family: Mochiy Pop One;
+  margin-bottom:0px;
+}
+
+.paragraph_2{
+  margin-top: 170px;
+  font-size: 20px;
+  margin-left:57px;
+
+}
+
+.navigation_bar{
+  padding: 15px;
+  height: 47px;
+  background-color: rgb(231, 170, 95);
+  text-align: center;
+
+}
+
+.navigation_bar ul{
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.navigation_bar a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+
+}
+
+.navigation_bar a:hover{
+  color: blue;
+  border-bottom: 2px solid blue;
+  transition: left 250ms ease-in-out, right 250ms ease-in-out;;
+
+}
+
+.welcome{
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+  margin: 50px;
+}
+
+.image{
+  width: 20%;
+  height: 20%;
+  border-radius: 38px;
+  float: right;
+  margin: 50px;
+}
+
+.info-principal{
+  margin-left: 50px;
+  width: 20%;
+}
+/*.navigationbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+img1 {
+  height: 40%;
+  margin-right: 10px;
+}
+
+.navbar {
+  overflow: auto;
+  width: 100%;
+}
+
+.navbar ul {
+  text-decoration: none;
+  padding: 20px 25px;
+  padding-left: 255px;
+  text-align: center;
+}
+.navbar a {
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid blue;
+  font-size: 20px;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.principal {
+  float: right;
+  border-radius: 15px;
+  margin-right: 110px;
+  height: 300px;
+  width: 250px;
+}
+
+.name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  width: 40%;
+  text-align: justify;
+}
+
+.KKS {
+  /* background-color: #e4d5d5;*/
+  border: 5px solid #fff;
+  box-shadow: 10px 15px 8px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+}
+.image2 {
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 344px;
+  width: 155px;
+  height: 155px;
+}
+
+.KKS .image3 {
+  padding: 20px;
+  /* height: 400px;*/
+}
+
+.igm {
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 344px;
+  width: 155px;
+  height: 155px;
+}
+
+.guidance {
+  margin-left: 36px;
+}
+
+.KKS .image4 {
+  padding: 20px;
+}
+
+.gmi {
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 344px;
+  width: 155px;
+  height: 155px;
+}
+
+h2 {
+  margin-top: 150px;
+  margin-bottom: 40px;
+  font-size: 35px;
+  text-align: center;
+}
+.bold {
+  font-size: 90px;
+}
+
+.bold1 {
+  font-size: 90px;
+}
+.bol {
+  text-align: right;
+}
+
+.p1 {
+  margin-bottom: 20px;
+}
+
+.containlast {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot1 {
+  padding: 50px;
+  display: flex;
+}
+
+.logoimg {
+  border: 2px grey;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.facegmi {
+  width: 38px;
+  height: 38px;
+  border-radius: 145px;
+  position: absolute;
+  top: 375%;
+}
+
+.insta {
+  width: 38px;
+  height: 38px;
+  border-radius: 145px;
+  position: absolute;
+  top: 375%;
+  left: 100px;
+}
+
+.foot1 {
+  padding: 42px;
+}
+
+.foot2 {
+  padding: 42px;
+}
+
+.foot3 {
+  padding: 42px;
+}
+
+.para2 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.KKSchool {
+  padding-left: 10px;
+}
